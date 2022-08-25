@@ -4,4 +4,5 @@
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign In</string>
     <string name="registration">Registration</string>
+    <string name="no_registration">Следует зарегать себя</string>
 </resources>
