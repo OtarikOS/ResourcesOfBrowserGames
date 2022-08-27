@@ -5,4 +5,7 @@
     <string name="action_sign_in">Sign In</string>
     <string name="registration">Registration</string>
     <string name="no_registration">Следует зарегать себя</string>
+    <string name="button_list">Объекты сектора</string>
+    <string name="button_comet">Кометы</string>
+    <string name="button_planet">Планеты и станции</string>
 </resources>
