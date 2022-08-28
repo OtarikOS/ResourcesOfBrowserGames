@@ -38,6 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
 
+        android:onClick="openFile"
         android:text="@string/button_list"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
@@ -50,7 +51,7 @@
         android:onClick="openFile"
 
         android:text="@string/button_comet"
-        android:visibility="visible"
+        android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/button_list"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2" />
@@ -59,11 +60,12 @@
         android:id="@+id/button_planet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="openFile"
         android:text="@string/button_planet"
-        android:visibility="visible"
+        android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/button_comet"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        app:layout_constraintEnd_toStartOf="@+id/guideline3"/>
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
